@@ -18,4 +18,4 @@ This is a responsive porfolio. As responsive design ensures that web application
 
 ## Link to Portfolio
 
-[My Portfolio](https://zhuxiaoyu1019.github.io/css-and-bootstrap/)
+[My Portfolio](https://zhuxiaoyu1019.github.io/portfolio/)

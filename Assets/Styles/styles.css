@@ -43,10 +43,14 @@ footer {
 }
 
 .social {
-    padding: 0 0 0 153px;
+    padding: 0 0 0 80px;
 }
 
-.icon {
+.social a {
+    color: black;
+}
+
+i {
     width: 20px;
     height: 20px;
     margin-left: 40px;
