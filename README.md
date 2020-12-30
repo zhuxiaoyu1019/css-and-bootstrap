@@ -5,15 +5,31 @@ This is a responsive porfolio. As responsive design ensures that web application
 
 ## Components
 
-* There are three main pages in the portfolio:
+* Three main pages in the portfolio:
 
-   * self-introductory page 
+   * Self-introduction 
 
-   * portfolio
+   * Projects showcase
 
-   * contacts
+   * Contact form
 
-* Every page contains a navigation bar and footer.
+* Navigation Bar
+
+  * Links interchange among main pages 
+
+  * Resume (avaliable for download)
+  
+* Footer
+  
+  * Contact information includes
+    
+      * LinkedIn
+      
+      * Github
+      
+      * Email
+      
+      * Phone number
 
 
 ## Link to Portfolio
