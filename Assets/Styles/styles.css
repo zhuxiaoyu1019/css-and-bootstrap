@@ -194,17 +194,92 @@ i {
     padding: 0 70px 15px 70px;
 }
 
-#projects {
+#all {
     overflow: hidden;
     margin-left: 25px;
 }
 
-.project-img {
+.card {
+    display: inline-block;
+    position: relative;
+    border: none;
     float: left;
 }
 
-footer {
-    clear: both;
+.project-img {
+    width: 350px;
+    height: 350px;
+}
+
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.project-name {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: #f8f9fa;
+}
+
+.card:hover .project-name {
+    top: 30%;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+} 
+
+a.btn {
+    left: 0;
+}
+
+.btns {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+a.deployed, a.repo {
+    min-width: 35%;
+    height: 20%;
+    margin: 0 10px;
+}
+
+.card:hover .btns {
+    bottom: 30%;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+} 
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #f8f9fa;
+}
+
+button:hover a {
+    color: #212529;
 }
 
 /* contact.html */
@@ -252,7 +327,7 @@ input {
         font-size: 14px;
     }
 
-    #projects {
+    #all {
         margin-left: 13px;
     }
 
@@ -302,7 +377,7 @@ input {
         padding: 0 40px 15px 40px;
     }
 
-    #projects {
+    #all {
         margin-left: 40px;
     }
 }
@@ -321,7 +396,7 @@ input {
         padding: 0 20px 15px 20px;
     }
 
-    #projects {
+    #all {
         margin-left: 95px;
     }
 }
@@ -369,7 +444,7 @@ input {
         padding: 0 3px 15px 3px;
     }
 
-    #projects {
+    #all {
         margin-left: 23px;
     }
 
