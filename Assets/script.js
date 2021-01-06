@@ -1,21 +1,27 @@
 $("#all-btn").click(function() {
-    $(".card").removeClass("hidden");
+    $("#all").removeClass("hidden");
+    $("#javascript").addClass("hidden");
+    $("#shiny").addClass("hidden");
+    $("#figma").addClass("hidden");
 });
 
 $("#javascript-btn").click(function() {
-    $("#weather-dashboard").removeClass("hidden");
-    $("#gun-violence-data-report").addClass("hidden");
-    $("#groupup").addClass("hidden");
+    $("#all").addClass("hidden");
+    $("#javascript").removeClass("hidden");
+    $("#shiny").addClass("hidden");
+    $("#figma").addClass("hidden");
 });
 
 $("#shiny-btn").click(function() {
-    $("#weather-dashboard").addClass("hidden");
-    $("#gun-violence-data-report").removeClass("hidden");
-    $("#groupup").addClass("hidden");
+    $("#all").addClass("hidden");
+    $("#javascript").addClass("hidden");
+    $("#shiny").removeClass("hidden");
+    $("#figma").addClass("hidden");
 });
 
 $("#figma-btn").click(function() {
-    $("#weather-dashboard").addClass("hidden");
-    $("#gun-violence-data-report").addClass("hidden");
-    $("#groupup").removeClass("hidden");
+    $("#all").addClass("hidden");
+    $("#javascript").addClass("hidden");
+    $("#shiny").addClass("hidden");
+    $("#figma").removeClass("hidden");
 });
