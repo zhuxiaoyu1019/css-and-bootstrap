@@ -1,7 +1,16 @@
 # Portfolio
 
-This is a responsive porfolio. As responsive design ensures that web applications render well on a variety of devices and window or screen sizes.  
+## Description
 
+This is a responsive porfolio. As responsive design ensures that web applications render well on a variety of devices and window or screen sizes. 
+
+
+
+## Technologies Used
+
+ JQuery, HTML, and CSS on top of the Bootstrap framework
+ 
+ 
 
 ## Components
 
@@ -29,7 +38,8 @@ This is a responsive porfolio. As responsive design ensures that web application
       
       * Email
       
-      * Phone number
+      * Phone number    
+
 
 
 ## Link to Portfolio
